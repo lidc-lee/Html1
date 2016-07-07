@@ -1,0 +1,37 @@
+a,b,big,body,dd,del,div,font,form,h1,h2,h3,h4,h5,h6,html,img,i,label,li,ol,p,pre,span,strong,u,ul{margin: 0;padding: 0;}
+body{font-family: "ËÎÌו"}
+a{text-decoration: none;}
+a:-webkit-any-link{color: #00b3e1;}
+img{border: none;}
+ul,ol{list-style: none;}
+
+.header{width: 1100px; height: 106px; margin: 0 auto;position: relative}
+.header .logo{width: 238px; height: 82px; position: absolute;top: 12px;left: 0;}
+.header .tel{width: 164px; height: 30px; position: absolute;right: 0; top: 16px; color: #888;background: url("#") no-repeat left 8px;}
+.tel p{font-size: 20px;color: #00b3e1;font-weight: 900;line-height: 1em;}
+.header .nav{width: 800px; height: 50px; position: absolute; right: 0; bottom: 0;}
+.nav li{float: left;position: relative}
+.nav li a{display: block;line-height: 50px;padding: 0 24px;font-size: 14px;color: #333;}
+.nav li i{display: block;width: 0%;height: 3px;background: #00b3e1;position: absolute;bottom: 0;left: 50%;transition: 0.3s;}
+.nav li a:hover,.nav li.on a{color: #00b3e1;}
+.banner{width: 100%;height: 500px;}
+
+.about{width: 1100px;height: 180px;margin: 95px auto}
+.about .box{width: 533px;height: 180px;background: gainsboro; position: relative;transition: 0.3s;border: 1px solid #eeeeee;}
+.about .box:hover{background: hotpink; border: 1px solid #00408f;}
+.about .box_l{float: left;}
+.about .box_r{float: right;}
+
+.pro{width: 1180px;height: 630px;background: cornflowerblue;margin: 0 auto}
+.pro_con{width: 1180px;border: 1px solid red;height: 300px; margin: 0 auto;}
+.pro_con .btn{width: 40px; height: 300px;background: blue; float: left; cursor: pointer;}
+.pro_con .out{width: 1100px;height: 300px;background: lawngreen; float: left;}
+.pro_more{width: 226px; height: 48px;border: 1px solid #202524; display: block; margin: 0 auto; text-align: center; line-height: 48px;font-size: 14px;color: #202524}
+.pro_more:hover{background: #00b3e1;color: white; border: 1px solid #00b3e1}
+.news{width: 1100px;height: 445px;margin: 90px auto;background: blueviolet;}
+.news_con{width: 100%;height: 340px;margin-top:40px; background: white; }
+.news_main{width: 660px; height: 340px;background: #0CF;float: left;}
+.news_main_left{width: 160px; height: 340px; padding-left: 20px; background: darkslategrey; float: left;}
+.news_main_right{width: 479px; height: 338px; float: left; background: yellow;border: 1px solid #d0d0d0; border-left: none;overflow: hidden;}
+.news .video{width: 300px; height: 340px; float: right;background: #00b3e1;}
+.footer{width: 100%;height: 250px;background: cyan}
